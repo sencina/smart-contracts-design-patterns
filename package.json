@@ -1,0 +1,30 @@
+{
+  "name": "smart-contracts-design-patterns",
+  "version": "1.0.0",
+  "description": "cositas",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sencina/smart-contracts-design-patterns.git"
+  },
+  "author": "Santiago Encina",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sencina/smart-contracts-design-patterns/issues"
+  },
+  "homepage": "https://github.com/sencina/smart-contracts-design-patterns#readme",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "@nomiclabs/hardhat-waffle": "^2.0.6",
+    "chai": "^4.4.1",
+    "ethereum-waffle": "^4.0.10",
+    "hardhat": "^2.19.4"
+  },
+  "dependencies": {
+    "ethers": "^6.10.0",
+    "waffle": "^0.0.4"
+  }
+}
