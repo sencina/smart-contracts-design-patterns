@@ -1,4 +1,3 @@
-// File: test/paymentSystem.test.ts
 import { expect } from 'chai';
 import { ethers } from 'hardhat';
 import { Signer } from 'ethers';
