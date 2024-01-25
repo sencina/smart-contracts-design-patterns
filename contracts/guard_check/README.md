@@ -28,7 +28,9 @@ In Ethereum smart contract development, the `revert`, `require`, and `assert` st
 
 ```solidity
 function exampleFunction() public {
-    require(someCondition, "Custom error message");
+    if (!someCondition) {
+        revert("Custom error message");
+    }
     // ...
 }
 ```
