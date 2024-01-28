@@ -22,7 +22,7 @@ Smart contract design patterns often adhere to these principles to ensure well-o
 
 ## Design Patterns Checklist
 
-- [x] [**Guard Check Design Pattern:**](./contracts/guard_check/README.md) Ensures that specific conditions are met before executing critical operations, enhancing security and efficiency.
-- [x] [**State Machine Design Pattern:**](./contracts/state_machine/README.md) Manages an object's behavior by allowing it to transition between different states based on internal conditions or external events.
+- [x] [**Guard Check Design Pattern:**](./contracts/guard_check) Ensures that specific conditions are met before executing critical operations, enhancing security and efficiency.
+- [x] [**State Machine Design Pattern:**](./contracts/state_machine) Manages an object's behavior by allowing it to transition between different states based on internal conditions or external events.
 
 Choose from the above patterns based on your specific use case and requirements. Each pattern addresses a particular aspect of smart contract development and can be applied in various contexts.
